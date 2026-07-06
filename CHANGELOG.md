@@ -2,7 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.0.1] — 2026-07-06
+
 ### ✨ Features
 
 - Add Avro dependency and update version in pom.xml — [@nil-malh](https://github.com/nil-malh)
