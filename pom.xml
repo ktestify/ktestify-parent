@@ -61,6 +61,7 @@
         <!-- Dependency Versions (Alphabetically)      -->
         <!-- ========================================= -->
         <awaitility.version>4.3.0</awaitility.version>
+        <avro.version>1.12.1</avro.version>
         <commons-cli.version>1.11.0</commons-cli.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
@@ -224,6 +225,20 @@
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-streams-avro-serde</artifactId>
                 <version>${confluent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.confluent</groupId>
+                <artifactId>kafka-avro-serializer</artifactId>
+                <version>${confluent.version}</version>
+            </dependency>
+
+            <!-- ===================================== -->
+            <!-- Avro                                  -->
+            <!-- ===================================== -->
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro.version}</version>
             </dependency>
 
             <!-- ===================================== -->
@@ -692,3 +707,4 @@
     </profiles>
 
 </project>
+
