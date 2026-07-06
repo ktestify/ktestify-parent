@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+### ✨ Features
+
+- Add Avro dependency and update version in pom.xml — [@nil-malh](https://github.com/nil-malh)
+
+
 ### ⬆️ Dependency Updates
 
 - Bump the logging group across 1 directory with 3 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
@@ -10,7 +15,6 @@ All notable changes to this project will be documented in this file.
 
 ### 🎉 New Contributors
 
-- @nil-malh made their first contribution in [#1](https://github.com/ktestify/ktestify-parent/pull/1)
 
 
 
