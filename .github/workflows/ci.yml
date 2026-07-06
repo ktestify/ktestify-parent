@@ -1,0 +1,109 @@
+# ============================================================
+# CI — Continuous Integration
+#
+# Triggered on:
+#   • push  → main      (every merge — post-merge validation)
+#   • pull_request → main (every PR — pre-merge validation)
+#
+# Since ktestify-parent is a POM-only project (no Java source),
+# the CI validates the POM structure and runs Spotless checks.
+# ============================================================
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - "**.md"
+      - "LICENSE"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/pull_request_template.md"
+      - ".github/SECURITY.md"
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+      - "**.md"
+      - "LICENSE"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/pull_request_template.md"
+      - ".github/SECURITY.md"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+env:
+  JAVA_VERSION: "25"
+  MAVEN_OPTS: >-
+    -Xmx2048m
+    -XX:+EnableDynamicAgentLoading
+    -Dmaven.repo.local=${{ github.workspace }}/.m2/repository
+
+permissions:
+  contents: read
+
+# ──────────────────────────────────────────────────────────────
+jobs:
+
+  # ── 1. POM Validation ─────────────────────────────────────
+  validate:
+    name: 🔍 Validate POM
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Java ${{ env.JAVA_VERSION }}
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+
+      - name: Validate POM structure
+        run: mvn validate --no-transfer-progress
+
+  # ── 2. Code Style ─────────────────────────────────────────
+  lint:
+    name: 🎨 Code Style (Spotless)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Java ${{ env.JAVA_VERSION }}
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+
+      - name: Spotless — check formatting
+        run: mvn spotless:check --no-transfer-progress
+
+  # ── 3. Aggregate status (single required check) ───────────
+  ci-success:
+    name: ✅ CI passed
+    runs-on: ubuntu-latest
+    needs: [ validate, lint ]
+    if: always()
+    permissions:
+      contents: read
+    steps:
+      - name: Evaluate results
+        run: |
+          validate="${{ needs.validate.result }}"
+          lint="${{ needs.lint.result }}"
+          echo "validate → $validate"
+          echo "lint     → $lint"
+          if [[ "$validate" != "success" || "$lint" != "success" ]]; then
+            echo "❌ One or more jobs failed."
+            exit 1
+          fi
+          echo "✅ All CI jobs passed."

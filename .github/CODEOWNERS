@@ -1,0 +1,15 @@
+# CODEOWNERS — Automatic review assignment
+#
+# Order matters: last matching pattern takes precedence.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+*                               @nil-malh
+
+pom.xml                         @nil-malh
+cliff.toml                      @nil-malh
+
+.github/                        @nil-malh
+
+*.md                            @nil-malh
+SECURITY.md                     @nil-malh
+.github/SECURITY.md             @nil-malh
