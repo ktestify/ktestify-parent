@@ -5,7 +5,7 @@
     <!-- Project Coordinates -->
     <groupId>io.github.ktestify</groupId>
     <artifactId>ktestify-parent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <!-- Project Information -->
