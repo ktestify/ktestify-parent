@@ -2,7 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.0.2] — 2026-07-07
+
 ### ✨ Features
 
 - Added source and javadoc plugin — [@nil-malh](https://github.com/nil-malh)
