@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+### ⬆️ Dependency Updates
+
+- Bump com.fasterxml.jackson:jackson-bom in the jackson group *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
+
 ## [1.0.2] — 2026-07-07
 
 ### ✨ Features
