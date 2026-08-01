@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump org.apache.maven.plugins:maven-jar-plugin *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump the cucumber group with 4 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
