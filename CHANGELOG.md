@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the cucumber group with 4 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump com.google.cloud.tools:jib-maven-plugin *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
