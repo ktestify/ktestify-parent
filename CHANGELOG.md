@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump com.fasterxml.jackson:jackson-bom in the jackson group *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump org.apache.maven.plugins:maven-jar-plugin *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
