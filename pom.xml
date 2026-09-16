@@ -61,7 +61,7 @@
         <!-- Dependency Versions (Alphabetically)      -->
         <!-- ========================================= -->
         <awaitility.version>4.3.0</awaitility.version>
-        <avro.version>1.12.1</avro.version>
+        <avro.version>1.12.2</avro.version>
         <commons-cli.version>1.11.0</commons-cli.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
