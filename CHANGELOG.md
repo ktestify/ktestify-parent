@@ -27,6 +27,12 @@ All notable changes to this project will be documented in this file.
 
 - Bump org.apache.avro:avro from 1.12.1 to 1.12.2 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump org.slf4j:slf4j-api in the logging group *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
+- Bump the maven-plugins group across 1 directory with 4 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
+- Bump org.projectlombok:lombok from 1.18.46 to 1.18.48 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
