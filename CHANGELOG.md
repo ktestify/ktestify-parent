@@ -21,6 +21,10 @@ All notable changes to this project will be documented in this file.
 
 - Bump xmlunit.version from 2.12.0 to 2.13.0 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump the cucumber group with 4 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
+- Bump the junit5 group with 3 updates *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
