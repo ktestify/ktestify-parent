@@ -33,6 +33,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump org.projectlombok:lombok from 1.18.46 to 1.18.48 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump com.fasterxml.jackson:jackson-bom *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
