@@ -25,6 +25,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the junit5 group with 3 updates *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump org.apache.avro:avro from 1.12.1 to 1.12.2 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.2] — 2026-07-07
 
