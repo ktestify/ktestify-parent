@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+### ⬆️ Dependency Updates
+
+- Bump the maven-plugins group with 4 updates *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
+
 ## [1.0.3] — 2026-09-16
 
 ### ⬆️ Dependency Updates
