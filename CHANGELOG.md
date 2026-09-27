@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the kafka group with 3 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump the cucumber group across 1 directory with 4 updates *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.3] — 2026-09-16
 
