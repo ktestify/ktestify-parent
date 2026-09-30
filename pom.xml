@@ -75,7 +75,7 @@
         <mockito.version>5.24.0</mockito.version>
         <jackson.version>2.22.2</jackson.version>
         <log4j2.version>2.26.1</log4j2.version>
-        <slf4j.version>2.0.19</slf4j.version>
+        <slf4j.version>2.0.20</slf4j.version>
         <snakeyaml.version>2.6</snakeyaml.version>
         <testcontainers.version>2.0.5</testcontainers.version>
         <testcontainers-kafka.version>2.0.5</testcontainers-kafka.version>
