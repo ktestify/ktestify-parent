@@ -17,6 +17,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump xmlunit.version from 2.13.0 to 2.14.0 *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
+- Bump com.fasterxml.jackson:jackson-bom *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
+
 
 ## [1.0.3] — 2026-09-16
 
