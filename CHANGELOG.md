@@ -20,6 +20,11 @@ All notable changes to this project will be documented in this file.
 - Bump com.fasterxml.jackson:jackson-bom *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot])
 
 
+### 🔧 Miscellaneous
+
+- Update project description, dependency versions, and plugin configurations *(pom)* — [@nil-malh](https://github.com/nil-malh)
+
+
 ## [1.0.3] — 2026-09-16
 
 ### ⬆️ Dependency Updates
