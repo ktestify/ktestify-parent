@@ -470,6 +470,8 @@
                         <excludes>
                             <exclude>**/*IT.java</exclude>
                             <exclude>**/*ITTests.java</exclude>
+                            <!-- Prevent nested classes from IT suites (e.g. FooITTests$BarTests) from being picked up by Surefire -->
+                            <exclude>**/*$*</exclude>
                         </excludes>
                         <argLine>@{argLine}
                             -Xmx1024m
