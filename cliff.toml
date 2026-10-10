@@ -50,7 +50,12 @@ trim = true
 [git]
 conventional_commits   = true
 filter_unconventional  = false
-split_commits          = false
+split_commits          = true
+
+commit_preprocessors = [
+    # Strip the "* " bullet GitHub adds to squash-merge bodies
+    { pattern = '(?m)^\s*\*\s+', replace = "" },
+]
 
 commit_parsers = [
     { message = "^Merge",                skip = true },
