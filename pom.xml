@@ -62,7 +62,7 @@
         <!-- Dependency Versions (Alphabetically)      -->
         <!-- ========================================= -->
         <avro.version>1.12.2</avro.version>
-        <azure-storage-blob.version>12.35.1</azure-storage-blob.version>
+        <azure-storage-blob.version>12.36.0</azure-storage-blob.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
         <confluent.version>8.3.2</confluent.version>
