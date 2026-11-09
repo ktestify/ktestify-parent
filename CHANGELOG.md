@@ -13,6 +13,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump com.google.code.gson:gson from 2.14.0 to 2.15.0 (#36) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#36](https://github.com/ktestify/ktestify-parent/pull/36))
 
+- Bump the maven-plugins group across 1 directory with 7 updates (#35) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#35](https://github.com/ktestify/ktestify-parent/pull/35))
+
 
 ## [1.0.4] — 2026-10-04
 
