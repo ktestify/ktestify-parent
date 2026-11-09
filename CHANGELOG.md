@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the kafka group across 1 directory with 3 updates (#37) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#37](https://github.com/ktestify/ktestify-parent/pull/37))
 
+- Bump com.google.code.gson:gson from 2.14.0 to 2.15.0 (#36) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#36](https://github.com/ktestify/ktestify-parent/pull/36))
+
 
 ## [1.0.4] — 2026-10-04
 
