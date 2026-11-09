@@ -15,6 +15,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the maven-plugins group across 1 directory with 7 updates (#35) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#35](https://github.com/ktestify/ktestify-parent/pull/35))
 
+- Bump com.fasterxml.jackson:jackson-bom (#34) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#34](https://github.com/ktestify/ktestify-parent/pull/34))
+
 
 ## [1.0.4] — 2026-10-04
 
