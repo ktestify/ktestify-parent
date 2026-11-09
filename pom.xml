@@ -64,7 +64,7 @@
         <avro.version>1.12.2</avro.version>
         <azure-storage-blob.version>12.35.1</azure-storage-blob.version>
         <commons-io.version>2.22.0</commons-io.version>
-        <commons-lang3.version>3.20.0</commons-lang3.version>
+        <commons-lang3.version>3.21.0</commons-lang3.version>
         <confluent.version>8.3.2</confluent.version>
         <cucumber.version>8.0.4</cucumber.version>
         <cucumber-reportr.version>1.4.0</cucumber-reportr.version>
