@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+### ⬆️ Dependency Updates
+
+- Bump com.azure:azure-storage-blob from 12.35.1 to 12.37.2 (#39) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#39](https://github.com/ktestify/ktestify-parent/pull/39))
+
+
 ## [1.0.4] — 2026-10-04
 
 ### ⬆️ Dependency Updates
