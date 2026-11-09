@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump com.typesafe:config from 1.4.9 to 1.4.10 (#38) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#38](https://github.com/ktestify/ktestify-parent/pull/38))
 
+- Bump the kafka group across 1 directory with 3 updates (#37) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#37](https://github.com/ktestify/ktestify-parent/pull/37))
+
 
 ## [1.0.4] — 2026-10-04
 
