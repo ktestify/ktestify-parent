@@ -20,7 +20,7 @@ Parent POM for all [ktestify](https://github.com/ktestify) modules.
 <parent>
     <groupId>io.github.ktestify</groupId>
     <artifactId>ktestify-parent</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8-SNAPSHOT</version>
 </parent>
 ```
 
