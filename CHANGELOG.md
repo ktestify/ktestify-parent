@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the maven-plugins group with 3 updates (#43) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#43](https://github.com/ktestify/ktestify-parent/pull/43))
 
+- Bump the kafka group with 2 updates (#42) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#42](https://github.com/ktestify/ktestify-parent/pull/42))
+
 
 ## [1.0.7] — 2026-11-09
 
