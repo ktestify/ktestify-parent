@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the kafka group with 2 updates (#42) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#42](https://github.com/ktestify/ktestify-parent/pull/42))
 
+- Bump com.fasterxml.jackson:jackson-bom (#41) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#41](https://github.com/ktestify/ktestify-parent/pull/41))
+
 
 ## [1.0.7] — 2026-11-09
 
