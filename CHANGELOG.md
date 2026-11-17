@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump com.fasterxml.jackson:jackson-bom (#41) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#41](https://github.com/ktestify/ktestify-parent/pull/41))
 
+- Bump org.apache.commons:commons-lang3 (#40) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#40](https://github.com/ktestify/ktestify-parent/pull/40))
+
 
 ## [1.0.7] — 2026-11-09
 
