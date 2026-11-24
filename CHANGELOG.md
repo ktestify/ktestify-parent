@@ -2,7 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.0.8] — 2026-11-24
+
 ### ⬆️ Dependency Updates
 
 - Bump the maven-plugins group with 3 updates (#43) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#43](https://github.com/ktestify/ktestify-parent/pull/43))
