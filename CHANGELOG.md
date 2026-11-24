@@ -15,6 +15,8 @@ All notable changes to this project will be documented in this file.
 
 - Bump the cucumber group with 5 updates (#44) *(deps)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#44](https://github.com/ktestify/ktestify-parent/pull/44))
 
+- Bump org.codehaus.mojo:versions-maven-plugin (#45) *(deps-dev)* — [@dependabot[bot]](https://github.com/dependabot[bot]) ([#45](https://github.com/ktestify/ktestify-parent/pull/45))
+
 
 ## [1.0.7] — 2026-11-09
 
